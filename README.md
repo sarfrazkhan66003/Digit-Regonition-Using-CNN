@@ -14,11 +14,7 @@ IAM Handwriting Dataset (Optional for additional training)
 
 Project Structure:-
 ![Screenshot 2025-03-06 145915](https://github.com/user-attachments/assets/2d81a544-d35c-4f4a-9de6-8b36959f6924)
-/Digit_recognition  
-│── train/                   # Contains training images (GNHK dataset)  
-│── Digit_recognition.ipynb   # Jupyter Notebook for model training and testing  
-│── README.md                 # Project documentation  
-│── requirements.txt          # Required dependencies  
+
 
 
 Custom Image Testing :-
