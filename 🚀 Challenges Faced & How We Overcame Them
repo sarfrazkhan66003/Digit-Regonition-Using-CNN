@@ -1,0 +1,16 @@
+🚀 Challenges Faced & How We Overcame Them
+🔴 Overfitting on MNIST
+Challenge: The model performed well on the training set but showed slightly lower accuracy on test data.
+✅ Solution: We implemented dropout layers, L2 regularization, and early stopping to prevent overfitting and improve generalization.
+
+⏳ Computational Inefficiency
+Challenge: Training took longer due to the large dataset and multiple convolutional layers.
+⚡ Solution: We used Google Colab’s GPU acceleration and optimized the model by reducing redundant layers, applying batch normalization, and using smaller kernel sizes to speed up training.
+
+✍️ Limited Generalization on Custom Handwritten Images
+Challenge: The model struggled to recognize variations in handwriting styles different from the training dataset.
+🔍 Solution: We expanded the dataset using data augmentation (rotation, scaling, shearing, and contrast adjustments) to make the model more robust to handwriting variations.
+
+📉 Low Accuracy on Noisy Images
+Challenge: Slight distortions, blur, and noise in handwritten digits led to frequent misclassifications.
+🎯 Solution: We applied preprocessing techniques such as Gaussian blurring, adaptive thresholding, and noise reduction to improve image quality before feeding them into the model.
